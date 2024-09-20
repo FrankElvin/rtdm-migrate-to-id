@@ -127,13 +127,6 @@
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.8.0</version>
                 <executions>
-                    <execution>
-                        <id>copy</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>copy</goal>
-                        </goals>
-                    </execution>
                 </executions>
             </plugin>
         </plugins>
